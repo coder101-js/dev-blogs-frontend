@@ -160,14 +160,14 @@ export default function RegisterPage() {
                     </div>
 
                     {/* Google Button */}
-                    <button
+                    {/* <button
                         type="button"
                         onClick={() => signIn("google", { callbackUrl: "/" })}
                         className="w-full bg-white text-black hover:bg-gray-100 transition-all py-2 rounded-md font-semibold flex items-center justify-center gap-3"
                     >
                         <Image src="/google.png" width={24} height={24} alt="Google" />
                         Sign In with Google
-                    </button>
+                    </button> */}
 
                     <div className="text-center mt-4">
                         <span className='text-[13px]'>Already have an account? </span>
