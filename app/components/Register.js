@@ -153,13 +153,12 @@ export default function RegisterPage() {
                         )}
                     </button>
 
-                    <div className="flex items-center gap-2">
+                    {/* <div className="flex items-center gap-2">
                         <div className="flex-grow border-t border-gray-500" />
                         <span className="text-sm text-gray-300">or</span>
                         <div className="flex-grow border-t border-gray-500" />
                     </div>
 
-                    {/* Google Button */}
                     <button
                         type="button"
                         onClick={() => signIn("google", { callbackUrl: "/" })}
@@ -167,7 +166,7 @@ export default function RegisterPage() {
                     >
                         <Image src="/google.png" width={24} height={24} alt="Google" />
                         Sign In with Google
-                    </button>
+                    </button> */}
 
                     <div className="text-center mt-4">
                         <span className='text-[13px]'>Already have an account? </span>
